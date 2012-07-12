@@ -40,16 +40,12 @@
       }
 
       header { 
-        height: 100px;
+        padding-top: 1em;
         border-bottom: 1px groove #fff;
       }
 
-      header h3, header form {
-        margin-top: 20px;
-      }
-
       footer {
-        padding: 40px 40px 40px 40px;
+        padding-top: 1em;
         border-top: 1px groove #fff;
       }
 
@@ -58,7 +54,6 @@
       }
 
       .main-content {
-        padding: 40px 0 40px 0;
         background: #404040;
       }
 
@@ -73,39 +68,46 @@
 <header>
   <div class="row">
     <div class="two columns">
-      <h3>Foundation</h3>
+      <h1>Foundation</h1>
     </div>
     <div class="four columns offset-by-six">
-      <form id="searchform" method="post" action="?">
-          <input type="search" placeholder="Search..." name="s" >
-          <input type="submit" value="Go" />
+      <form id="searchform" method="get" action="?" >
+        <div class="row collapse">
+          <div class="eight mobile-three columns">
+            <input type="text" placeholder="Search..." name="s" >
+          </div>
+          <div class="four mobile-one columns">
+            <input type="submit" value="Search" class="postfix button" />
+          </div>
+        </div>
       </form>
     </div>
   </div>
 </header>
 
+
 <div class="main-content">
   <div class="row">
     <article class="four columns">
-      <h3>Article 1</h3>
+      <h2>Article 1</h2>
       <p>
       Cupcake ipsum dolor sit amet tiramisu. Chupa chups ice cream jujubes toffee lollipop. Croissant carrot cake faworki chocolate danish lemon drops dragée pudding liquorice. Pastry sweet carrot cake carrot cake cotton candy applicake muffin soufflé caramels. Sugar plum sweet chocolate bar. Bear claw pudding pie.
       Cupcake ipsum dolor sit amet tiramisu. Chupa chups ice cream jujubes toffee lollipop. Croissant carrot cake faworki chocolate danish lemon drops dragée pudding liquorice. Pastry sweet carrot cake carrot cake cotton candy applicake muffin soufflé caramels. Sugar plum sweet chocolate bar. Bear claw pudding pie.
       </p>
     </article>
     <article class="four columns">
-        <h3>Article 2</h3>
-        <p>
-        Cupcake ipsum dolor sit amet tiramisu. Chupa chups ice cream jujubes toffee lollipop. Croissant carrot cake faworki chocolate danish lemon drops dragée pudding liquorice. Pastry sweet carrot cake carrot cake cotton candy applicake muffin soufflé caramels. Sugar plum sweet chocolate bar. Bear claw pudding pie. 
-        Cupcake ipsum dolor sit amet tiramisu. Chupa chups ice cream jujubes toffee lollipop. Croissant carrot cake faworki chocolate danish lemon drops dragée pudding liquorice. Pastry sweet carrot cake carrot cake cotton candy applicake muffin soufflé caramels. Sugar plum sweet chocolate bar. Bear claw pudding pie. 
-        </p>
+      <h2>Article 2</h2>
+      <p>
+      Cupcake ipsum dolor sit amet tiramisu. Chupa chups ice cream jujubes toffee lollipop. Croissant carrot cake faworki chocolate danish lemon drops dragée pudding liquorice. Pastry sweet carrot cake carrot cake cotton candy applicake muffin soufflé caramels. Sugar plum sweet chocolate bar. Bear claw pudding pie. 
+      Cupcake ipsum dolor sit amet tiramisu. Chupa chups ice cream jujubes toffee lollipop. Croissant carrot cake faworki chocolate danish lemon drops dragée pudding liquorice. Pastry sweet carrot cake carrot cake cotton candy applicake muffin soufflé caramels. Sugar plum sweet chocolate bar. Bear claw pudding pie. 
+      </p>
     </article>
     <article class="four columns">
-        <h3>Article 3</h3>
-        <p>
-        Cupcake ipsum dolor sit amet tiramisu. Chupa chups ice cream jujubes toffee lollipop. Croissant carrot cake faworki chocolate danish lemon drops dragée pudding liquorice. Pastry sweet carrot cake carrot cake cotton candy applicake muffin soufflé caramels. Sugar plum sweet chocolate bar. Bear claw pudding pie. 
-        Cupcake ipsum dolor sit amet tiramisu. Chupa chups ice cream jujubes toffee lollipop. Croissant carrot cake faworki chocolate danish lemon drops dragée pudding liquorice. Pastry sweet carrot cake carrot cake cotton candy applicake muffin soufflé caramels. Sugar plum sweet chocolate bar. Bear claw pudding pie. 
-        </p>
+      <h2>Article 3</h2>
+      <p>
+      Cupcake ipsum dolor sit amet tiramisu. Chupa chups ice cream jujubes toffee lollipop. Croissant carrot cake faworki chocolate danish lemon drops dragée pudding liquorice. Pastry sweet carrot cake carrot cake cotton candy applicake muffin soufflé caramels. Sugar plum sweet chocolate bar. Bear claw pudding pie. 
+      Cupcake ipsum dolor sit amet tiramisu. Chupa chups ice cream jujubes toffee lollipop. Croissant carrot cake faworki chocolate danish lemon drops dragée pudding liquorice. Pastry sweet carrot cake carrot cake cotton candy applicake muffin soufflé caramels. Sugar plum sweet chocolate bar. Bear claw pudding pie. 
+      </p>
     </article>
   </div>
 </div>
@@ -113,16 +115,22 @@
 <footer>
   <div class="row">
     <section class="four columns">
-      <h6><strong>Footer</strong></h6>
-      <p>Foundation is made by <a href="http://www.zurb.com/">ZURB</a>, an <a href="http://www.zurb.com/words/design-process">interaction design and strategy company</a> located in Campbell, California. We've put over 10 years of experience building web products, services and websites into this framework. <a href="../about.php">Foundation Info and Goodies →</a></p>
-      <h6><strong>Using Foundation?</strong></h6>
-      <p>Let us know how you're using Foundation and we might feature you as an example! <a href="mailto:foundation@zurb.com?subject=I'm%20using%20Foundation">Get in touch →</a></p>
-      <h6><strong>Need some help?</strong></h6>
-      <p>For quick answers or help <a href="mailto:foundation@zurb.com">email us →</a></p>
+      <h3>Footer</h3>
+      <p>
+      Cupcake ipsum dolor sit amet tiramisu. Chupa chups ice cream jujubes toffee lollipop. Croissant carrot cake faworki chocolate danish lemon drops dragée pudding liquorice. Pastry sweet carrot cake carrot cake cotton candy applicake muffin soufflé caramels. Sugar plum sweet chocolate bar. Bear claw pudding pie. 
+      </p>
+      <h3>Using Foundation?</h3>
+      <p>
+      Cupcake ipsum dolor sit amet tiramisu. Chupa chups ice cream jujubes toffee lollipop. Croissant carrot cake faworki chocolate danish lemon drops dragée pudding liquorice. Pastry sweet carrot cake carrot cake cotton candy applicake muffin soufflé caramels. Sugar plum sweet chocolate bar. Bear claw pudding pie. 
+      </p>
+      <h3>Need some help?</h3>
+      <p>
+      Cupcake ipsum dolor sit amet tiramisu. Chupa chups ice cream jujubes toffee lollipop. Croissant carrot cake faworki chocolate danish lemon drops dragée pudding liquorice. Pastry sweet carrot cake carrot cake cotton candy applicake muffin soufflé caramels. Sugar plum sweet chocolate bar. Bear claw pudding pie. 
+      </p>
     </section>
 
     <section class="three columns">
-      <h6><strong>Testimonial</strong></h6>
+      <h3><strong>Testimonial</strong></h3>
       <blockquote cite="http://sourceofquote.com">
         <p>
         This is a pretty big footer, but I have seen plenty bigger. 
@@ -132,7 +140,7 @@
     </section>
 
     <section class="five columns">
-      <h6><strong>From the Archives</strong></h6>
+      <h3><strong>From the Archives</strong></h3>
       <p>
         Cupcake ipsum dolor sit amet tiramisu. Chupa chups ice cream jujubes toffee lollipop. Croissant carrot cake faworki chocolate danish lemon drops dragée pudding liquorice. Pastry sweet carrot cake carrot cake cotton candy applicake muffin soufflé caramels. Sugar plum sweet chocolate bar. Bear claw pudding pie. 
       </p>
